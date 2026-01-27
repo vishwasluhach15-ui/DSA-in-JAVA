@@ -1,7 +1,7 @@
 package arrays;
 import java.util.Scanner;
 public class Sumofarray {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Size of array : ");
         int n = sc.nextInt();
@@ -18,7 +18,7 @@ public class Sumofarray {
             x+= arr[i];
 
         }
-        System.out.print("0 :"+x);
+        System.out.print("  :"+x);
 
     }
 }

@@ -1,7 +1,7 @@
 package methods;
 import java.util.Scanner;
 public class findmaximumamound4 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter any 4 numbers : ");
         int a = sc.nextInt();

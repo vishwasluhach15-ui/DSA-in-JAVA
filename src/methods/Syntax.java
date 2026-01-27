@@ -4,7 +4,7 @@ public class Syntax {
     static void rohit(){
         System.out.println("Sharma");
     }
-    static void main(String[] args) {
+    public static void main(String[] args) {
         ajay();
     }
     static void ajay(){
