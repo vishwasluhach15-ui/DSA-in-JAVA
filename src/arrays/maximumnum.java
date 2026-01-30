@@ -3,7 +3,7 @@ package arrays;
 import java.util.Scanner;
 
 public class maximumnum {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Size of array : ");
         int n = sc.nextInt();
