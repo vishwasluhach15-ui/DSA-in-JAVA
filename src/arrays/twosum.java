@@ -3,7 +3,7 @@ package arrays;
 public class twosum {
     public static void main(String[] args) {
         int[] arr={12,24,56,-1,3,2,43,5,-3,7,10};
-        int trg= -3;
+        int trg= 8;
         find(arr,trg);
     }
 

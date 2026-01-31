@@ -18,7 +18,7 @@ public class secondlargestnum {
 
             }
         }
-        System.out.println(max);
-        System.out.println(smax);
+        System.out.println("Maximum :  "+max);
+        System.out.println("Second Maximum : "+smax);
     }
 }
