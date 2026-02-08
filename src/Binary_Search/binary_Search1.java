@@ -10,13 +10,10 @@ public class binary_Search1 {
             System.out.print(ele+"  ");
         }
         System.out.println();
-        int tar = 102;
-        int lo = 0 ;
-        int n = arr.length;
-        int hi = n -1 ;
+        int tar = 102;int lo = 0 ;
+        int n = arr.length;int hi = n -1 ;
         boolean flag = false ;
         while(hi >=  lo ){
-
             int mid = ( hi + lo ) / 2;
             if(arr[mid] > tar ){
                 hi = mid - 1 ;
@@ -28,7 +25,6 @@ public class binary_Search1 {
                 break ;
             }
         }
-
         if(flag){
             System.out.println("Number found ");
         }else System.out.println("Nope ");

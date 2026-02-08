@@ -19,8 +19,6 @@ public class SelectionSort {
             int temp = arr[idx];
             arr[idx] = arr[i];
             arr[i] = temp ;
-
-
         }
         print(arr);
     }
