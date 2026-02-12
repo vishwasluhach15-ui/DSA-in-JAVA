@@ -3,7 +3,6 @@ package Binary_Search;
 import java.util.Arrays;
 
 import static Basic_Sorting.moveZerosToEnd.print;
-
 public class first_last_occrence {
     public static void main(String[] args) {
         int[] arr = {1,21,23,12,12,45,67,-2,-3,4-9,-5,12,24,13,43,32,12};
@@ -26,8 +25,7 @@ public class first_last_occrence {
                 hi = mid -1;
             }
         }
-        lo = 0 ;
-        hi = n-1 ;
+        lo = 0 ;hi = n-1 ;
         while(hi>= lo){
 
             int mid = ( lo + hi ) / 2 ;
