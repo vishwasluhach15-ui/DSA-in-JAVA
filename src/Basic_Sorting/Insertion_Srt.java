@@ -10,7 +10,12 @@ public class Insertion_Srt {
                 arr[j]= arr[j-1];
                 arr[j-1] = temp ;
                 j--;
+
             }
+            for(int ele: arr){
+                System.out.print(ele+" ");
+            }
+            System.out.println();
 
         }
         for(int ele: arr){
