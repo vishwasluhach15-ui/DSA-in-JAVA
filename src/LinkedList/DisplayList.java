@@ -1,37 +1,37 @@
 package LinkedList;
 
-class Nodes{
-    int val ;
-    Nodes Next ;
-    Nodes(int val){
-        this.val = val ;
-    }
-}
+
 public class DisplayList {
-    public static void Display(Nodes head){
-        Nodes temp = head ;
+    public static void Display(node head){
+        node temp = head ;
         while(temp  != null){
             System.out.print(temp.val+" ");
-            temp = temp.Next ;
+            temp = temp.next ;
 
         }
     }
+    public static void recDisplay(node head ){
+        node temp = head ;
+        if(temp == null) return ;
+        System.out.print(temp.val+" ");
+        recDisplay(temp.next);
+    }
     public static void main(String[] args) {
-        Nodes a = new Nodes(10);
-        Nodes b = new Nodes(20);
-        Nodes c = new Nodes(30);
-        Nodes d = new Nodes(40);
-        Nodes e = new Nodes(50);
-        Nodes f = new Nodes(60);
-        Nodes g = new Nodes(12);
+        node a = new node(10);
+        node b = new node(20);
+        node c = new node(30);
+        node d = new node(40);
+        node e = new node(50);
+        node f = new node(60);
+        node g = new node(12);
         // now connecting them
-        a.Next = b ;
-        b.Next = c ;
-        c.Next = d ;
-        d.Next = e ;
-        e.Next = f ;
-        f.Next = g ;
-        Display(a);
+        a.next = b ;
+        b.next = c ;
+        c.next = d ;
+        d.next = e ;
+        e.next = f ;
+        f.next = g ;
+        recDisplay(a);
 
 
     }
