@@ -8,14 +8,15 @@ public class biggestfrom3num {
         int a= sc.nextInt();
         int b= sc.nextInt();
         int c= sc.nextInt();
-        if(a>b && a>c){
+        if(a>=b && a>=c){
             System.out.println(a+" is biggest ");
-        }else if(b>a && b>c){
+        }else if(b>=a && b>=c){
             System.out.println(b+" is biggest ");
-        }else if(c>a && c>b){
-            System.out.println(c+" is biggest ");
+//        }else if(c>=a && c>=b){
+//            System.out.println(c+" is biggest ");
         }else{
-            System.out.println("Something went wrong");
+            System.out.println(c+" is biggest ");
+//            System.out.println("Something went wrong");
         }
     }
 }
