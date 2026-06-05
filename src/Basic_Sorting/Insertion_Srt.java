@@ -18,6 +18,7 @@ public class Insertion_Srt {
             System.out.println();
 
         }
+        System.out.println();
         for(int ele: arr){
             System.out.print(ele+" ");
         }
